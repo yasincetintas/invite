@@ -16,11 +16,14 @@
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
+/postgres-data/
+/doc
+/doc/
+/doc/*
 /build/
 /var/*
 !/var/cache
 /var/cache/*
-/docker/
 .idea/
 web/assets/css/semantic/lib/.sass-cache/
 !var/cache/.gitkeep
