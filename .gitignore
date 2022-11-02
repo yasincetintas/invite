@@ -1,5 +1,6 @@
-
 ###> symfony/framework-bundle ###
+/.env
+/.env.*
 /.env.local
 /.env.local.php
 /.env.*.local
@@ -8,3 +9,49 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+/build/
+/var/*
+!/var/cache
+/var/cache/*
+/docker/
+.idea/
+web/assets/css/semantic/lib/.sass-cache/
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+/web/profile/*
+/web/tmp/*
+/storage/*
+/web/attachments/*
+/composer.phar
+.ssh
+testing.php
+/update.sh
+/web/update.php
+composer.lock
+*.codekit
+config.codekit3
+/web/assets/.codekit-cache
+web/assets/prepros.cfg
+.DS_Store
+web/config.php
+backups
+/node_modules
+/doc/dockerize/initial_dbs/*
+/node_modules/*
+package-lock.json
+yarn.lock
+yarn-error.log
+docker-compose.yml
+docker-compose*.yml
+composer.json
+storage
+symfony.lock
